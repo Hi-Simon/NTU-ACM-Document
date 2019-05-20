@@ -1,0 +1,701 @@
+PWD H:/GitHub/ntu_acm-master
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
+INPUT ntudocument.tex
+OUTPUT ntudocument.log
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctexrep.cls
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctexrep.cls
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/unicode-data/UnicodeData.txt
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/unicode-data/CaseFolding.txt
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt
+INPUT nul
+INPUT nul
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/report.cls
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/report.cls
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJKfntef.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/environ/environ.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-report.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-report.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.def
+INPUT c:/Windows/Fonts/msyh.ttc
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/url/url.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/url/url.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/accsupp.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/accsupp.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/accsupp-dvipdfm.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/oberdiek/accsupp-dvipdfm.def
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
+INPUT ntudocument.aux
+INPUT ntudocument.aux
+OUTPUT ntudocument.aux
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT ntudocument.out
+INPUT ntudocument.out
+INPUT ntudocument.out
+INPUT ntudocument.out
+INPUT ./ntudocument.out
+OUTPUT ntudocument.out
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+OUTPUT ntudocument.xdv
+INPUT ntudocument.toc
+INPUT ntudocument.toc
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+OUTPUT ntudocument.toc
+INPUT contents.tex
+INPUT code/sync_with_stdio.cc
+INPUT code/sync_with_stdio.cc
+INPUT code/sync_with_stdio.cc
+INPUT code/out_float.cc
+INPUT code/out_float.cc
+INPUT code/out_float.cc
+INPUT code/fastInInt.cc
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT code/fastInInt.cc
+INPUT code/fastInInt.cc
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT code/fastInString.cc
+INPUT code/fastInString.cc
+INPUT code/fastInString.cc
+INPUT code/fastOutInt.cc
+INPUT code/fastOutInt.cc
+INPUT code/fastOutInt.cc
+INPUT code/fastOutString.cc
+INPUT code/fastOutString.cc
+INPUT code/fastOutString.cc
+INPUT code/pythonInput.py
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT code/pythonInput.py
+INPUT code/pythonInput.py
+INPUT code/read.java
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT code/read.java
+INPUT code/read.java
+INPUT code/int128.cc
+INPUT code/int128.cc
+INPUT code/int128.cc
+INPUT code/backpack.cc
+INPUT code/backpack.cc
+INPUT code/backpack.cc
+INPUT code/LIS(nlogn).cc
+INPUT code/LIS(nlogn).cc
+INPUT code/LIS(nlogn).cc
+INPUT code/LCS.cc
+INPUT code/LCS.cc
+INPUT code/LCS.cc
+INPUT code/DPmin.cc
+INPUT code/DPmin.cc
+INPUT code/DPmin.cc
+INPUT code/dullQueueDP.cc
+INPUT code/dullQueueDP.cc
+INPUT code/dullQueueDP.cc
+INPUT code/intervalDP.cc
+INPUT code/intervalDP.cc
+INPUT code/intervalDP.cc
+INPUT code/PeriodofTimeDP.cc
+INPUT code/PeriodofTimeDP.cc
+INPUT code/PeriodofTimeDP.cc
+INPUT code/numDP.cc
+INPUT code/numDP.cc
+INPUT code/numDP.cc
+INPUT code/math_DP.cc
+INPUT code/math_DP.cc
+INPUT code/math_DP.cc
+INPUT code/2dWIS.cc
+INPUT code/2dWIS.cc
+INPUT code/2dWIS.cc
+INPUT code/bfisprime.cc
+INPUT code/bfisprime.cc
+INPUT code/bfisprime.cc
+INPUT code/Miller_Rabin.cc
+INPUT code/Miller_Rabin.cc
+INPUT code/Miller_Rabin.cc
+INPUT code/Eratosthenes.cc
+INPUT code/Eratosthenes.cc
+INPUT code/Eratosthenes.cc
+INPUT code/eulerSieve.cc
+INPUT code/eulerSieve.cc
+INPUT code/eulerSieve.cc
+INPUT code/factorization.cc
+INPUT code/factorization.cc
+INPUT code/factorization.cc
+INPUT code/gcd.cc
+INPUT code/gcd.cc
+INPUT code/gcd.cc
+INPUT code/lcm.cc
+INPUT code/lcm.cc
+INPUT code/lcm.cc
+INPUT code/exGcd.cc
+INPUT code/exGcd.cc
+INPUT code/exGcd.cc
+INPUT code/crt.cc
+INPUT code/crt.cc
+INPUT code/crt.cc
+INPUT code/exCRT.cc
+INPUT code/exCRT.cc
+INPUT code/exCRT.cc
+INPUT code/EulerPhi.cc
+INPUT code/EulerPhi.cc
+INPUT code/EulerPhi.cc
+INPUT code/inv.cc
+INPUT code/inv.cc
+INPUT code/inv.cc
+INPUT code/mul.cc
+INPUT code/mul.cc
+INPUT code/mul.cc
+INPUT code/powMod.cc
+INPUT code/powMod.cc
+INPUT code/powMod.cc
+INPUT code/NumofCo-prime.cc
+INPUT code/NumofCo-prime.cc
+INPUT code/NumofCo-prime.cc
+INPUT code/Bsgs.cc
+INPUT code/Bsgs.cc
+INPUT code/Bsgs.cc
+INPUT code/Stern-BrocotTree.cc
+INPUT code/Stern-BrocotTree.cc
+INPUT code/Stern-BrocotTree.cc
+INPUT code/QuadraticResidue.cc
+INPUT code/QuadraticResidue.cc
+INPUT code/QuadraticResidue.cc
+INPUT code/mobius.cc
+INPUT code/mobius.cc
+INPUT code/mobius.cc
+INPUT code/Dujiao.cc
+INPUT code/Dujiao.cc
+INPUT code/Dujiao.cc
+INPUT code/formula.tex
+INPUT code/my_formula.tex
+INPUT code/Cnmmodp.cc
+INPUT code/Cnmmodp.cc
+INPUT code/Cnmmodp.cc
+INPUT code/lucas.cc
+INPUT code/lucas.cc
+INPUT code/lucas.cc
+INPUT code/nC0tonCp.cc
+INPUT code/nC0tonCp.cc
+INPUT code/nC0tonCp.cc
+INPUT code/FirstStirling.cc
+INPUT code/FirstStirling.cc
+INPUT code/FirstStirling.cc
+INPUT code/AdaptiveSimpson.cc
+INPUT code/AdaptiveSimpson.cc
+INPUT code/AdaptiveSimpson.cc
+INPUT code/game.txt
+INPUT code/game.txt
+INPUT code/game.txt
+INPUT code/LinearBasis.cc
+INPUT code/LinearBasis.cc
+INPUT code/LinearBasis.cc
+INPUT code/BigIntegerSqrt.java
+INPUT code/BigIntegerSqrt.java
+INPUT code/BigIntegerSqrt.java
+INPUT code/simplex.cc
+INPUT code/simplex.cc
+INPUT code/simplex.cc
+INPUT code/rongchi.cc
+INPUT code/rongchi.cc
+INPUT code/rongchi.cc
+INPUT code/fft_namespace.cc
+INPUT code/fft_namespace.cc
+INPUT code/fft_namespace.cc
+INPUT code/fft.cc
+INPUT code/fft.cc
+INPUT code/fft.cc
+INPUT code/ntt.cc
+INPUT code/ntt.cc
+INPUT code/ntt.cc
+INPUT code/fwt.cc
+INPUT code/fwt.cc
+INPUT code/fwt.cc
+INPUT code/CDQfft.cc
+INPUT code/CDQfft.cc
+INPUT code/CDQfft.cc
+INPUT code/polya_necklace.cc
+INPUT code/polya_necklace.cc
+INPUT code/polya_necklace.cc
+INPUT code/colorPolynomial.txt
+INPUT code/colorPolynomial.txt
+INPUT code/colorPolynomial.txt
+INPUT code/derangements.cc
+INPUT code/derangements.cc
+INPUT code/derangements.cc
+INPUT code/BBP.cc
+INPUT code/BBP.cc
+INPUT code/BBP.cc
+INPUT code/PriorStar.cc
+INPUT code/PriorStar.cc
+INPUT code/PriorStar.cc
+INPUT code/union-find.cc
+INPUT code/union-find.cc
+INPUT code/union-find.cc
+INPUT code/union-find(undo).cc
+INPUT code/union-find(undo).cc
+INPUT code/union-find(undo).cc
+INPUT code/Kruskal.cc
+INPUT code/Kruskal.cc
+INPUT code/Kruskal.cc
+INPUT code/MST_Prim.cc
+INPUT code/MST_Prim.cc
+INPUT code/MST_Prim.cc
+INPUT code/SPFA.cc
+INPUT code/SPFA.cc
+INPUT code/SPFA.cc
+INPUT code/dijkstra.cc
+INPUT code/dijkstra.cc
+INPUT code/dijkstra.cc
+INPUT code/Floyd.cc
+INPUT code/Floyd.cc
+INPUT code/Floyd.cc
+INPUT code/twoSAT.cc
+INPUT code/twoSAT.cc
+INPUT code/twoSAT.cc
+INPUT code/tarjan.cc
+INPUT code/tarjan.cc
+INPUT code/tarjan.cc
+INPUT code/Kosaraju.cc
+INPUT code/Kosaraju.cc
+INPUT code/Kosaraju.cc
+INPUT code/BCCpoint.cc
+INPUT code/BCCpoint.cc
+INPUT code/BCCpoint.cc
+INPUT code/BCCedge.cc
+INPUT code/BCCedge.cc
+INPUT code/BCCedge.cc
+INPUT code/bridge.cc
+INPUT code/bridge.cc
+INPUT code/bridge.cc
+INPUT code/euler_circuit.cc
+INPUT code/euler_circuit.cc
+INPUT code/euler_circuit.cc
+INPUT code/kth_shortest_path.cc
+INPUT code/kth_shortest_path.cc
+INPUT code/kth_shortest_path.cc
+INPUT code/floyd_mincycle.cc
+INPUT code/floyd_mincycle.cc
+INPUT code/floyd_mincycle.cc
+INPUT code/Directed_MST.cc
+INPUT code/Directed_MST.cc
+INPUT code/Directed_MST.cc
+INPUT code/SMST_Prim.cc
+INPUT code/SMST_Prim.cc
+INPUT code/SMST_Prim.cc
+INPUT code/SMST_Kruskal.cc
+INPUT code/SMST_Kruskal.cc
+INPUT code/SMST_Kruskal.cc
+INPUT code/determinant.cc
+INPUT code/determinant.cc
+INPUT code/determinant.cc
+INPUT code/zhuliucount.cc
+INPUT code/zhuliucount.cc
+INPUT code/zhuliucount.cc
+INPUT code/Dinic.cc
+INPUT code/Dinic.cc
+INPUT code/Dinic.cc
+INPUT code/ISAP.cc
+INPUT code/ISAP.cc
+INPUT code/ISAP.cc
+INPUT code/mincost_maxflow.cc
+INPUT code/mincost_maxflow.cc
+INPUT code/mincost_maxflow.cc
+INPUT code/zkwCostFlow.cc
+INPUT code/zkwCostFlow.cc
+INPUT code/zkwCostFlow.cc
+INPUT code/upperlowerFlow.cc
+INPUT code/upperlowerFlow.cc
+INPUT code/upperlowerFlow.cc
+INPUT code/Binarymatching.txt
+INPUT code/Binarymatching.txt
+INPUT code/Binarymatching.txt
+INPUT code/hungary.cc
+INPUT code/hungary.cc
+INPUT code/hungary.cc
+INPUT code/KM.cc
+INPUT code/KM.cc
+INPUT code/KM.cc
+INPUT code/BIT.cc
+INPUT code/BIT.cc
+INPUT code/BIT.cc
+INPUT code/differenceArray.cc
+INPUT code/differenceArray.cc
+INPUT code/differenceArray.cc
+INPUT code/2DBIT.cc
+INPUT code/2DBIT.cc
+INPUT code/2DBIT.cc
+INPUT code/inversionPair.cc
+INPUT code/inversionPair.cc
+INPUT code/inversionPair.cc
+INPUT code/Heap.cc
+INPUT code/Heap.cc
+INPUT code/Heap.cc
+INPUT code/RMQ.cc
+INPUT code/RMQ.cc
+INPUT code/RMQ.cc
+INPUT code/RMQ2.cc
+INPUT code/RMQ2.cc
+INPUT code/RMQ2.cc
+INPUT code/segmentTree.cc
+INPUT code/segmentTree.cc
+INPUT code/segmentTree.cc
+INPUT code/ZKWsegmentTree.cc
+INPUT code/ZKWsegmentTree.cc
+INPUT code/ZKWsegmentTree.cc
+INPUT code/SegmentTreeBeats.cc
+INPUT code/SegmentTreeBeats.cc
+INPUT code/SegmentTreeBeats.cc
+INPUT code/scanningLine.cc
+INPUT code/scanningLine.cc
+INPUT code/scanningLine.cc
+INPUT code/linescanMaxSquareCover.cc
+INPUT code/linescanMaxSquareCover.cc
+INPUT code/linescanMaxSquareCover.cc
+INPUT code/2dsegtree1.cc
+INPUT code/2dsegtree1.cc
+INPUT code/2dsegtree1.cc
+INPUT code/2dsegtree2.cc
+INPUT code/2dsegtree2.cc
+INPUT code/2dsegtree2.cc
+INPUT code/chairmantree.cc
+INPUT code/chairmantree.cc
+INPUT code/chairmantree.cc
+INPUT code/BITchairmanTree.cc
+INPUT code/BITchairmanTree.cc
+INPUT code/BITchairmanTree.cc
+INPUT code/treap.cc
+INPUT code/treap.cc
+INPUT code/treap.cc
+INPUT code/fhq_treap.cc
+INPUT code/fhq_treap.cc
+INPUT code/fhq_treap.cc
+INPUT code/splay.cc
+INPUT code/splay.cc
+INPUT code/splay.cc
+INPUT code/splay2.cc
+INPUT code/splay2.cc
+INPUT code/splay2.cc
+INPUT code/splayTree.cc
+INPUT code/splayTree.cc
+INPUT code/splayTree.cc
+INPUT code/pointDC.cc
+INPUT code/pointDC.cc
+INPUT code/pointDC.cc
+INPUT code/dsu_on_tree.cc
+INPUT code/dsu_on_tree.cc
+INPUT code/dsu_on_tree.cc
+INPUT code/interval_xor_max.cc
+INPUT code/interval_xor_max.cc
+INPUT code/interval_xor_max.cc
+INPUT code/tree_xor_max.cc
+INPUT code/tree_xor_max.cc
+INPUT code/tree_xor_max.cc
+INPUT code/mo.cc
+INPUT code/mo.cc
+INPUT code/mo.cc
+INPUT code/LCAonline.cc
+INPUT code/LCAonline.cc
+INPUT code/LCAonline.cc
+INPUT code/LCAoffline.cc
+INPUT code/LCAoffline.cc
+INPUT code/LCAoffline.cc
+INPUT code/LCAwanggann.cc
+INPUT code/LCAwanggann.cc
+INPUT code/LCAwanggann.cc
+INPUT code/heavy_light_decomposition.cpp
+INPUT code/heavy_light_decomposition.cpp
+INPUT code/heavy_light_decomposition.cpp
+INPUT code/KMP.cc
+INPUT code/KMP.cc
+INPUT code/KMP.cc
+INPUT code/exKMP.cc
+INPUT code/exKMP.cc
+INPUT code/exKMP.cc
+INPUT code/trie.cc
+INPUT code/trie.cc
+INPUT code/trie.cc
+INPUT code/ACautomachine.cc
+INPUT code/ACautomachine.cc
+INPUT code/ACautomachine.cc
+INPUT code/SA.cc
+INPUT code/SA.cc
+INPUT code/SA.cc
+INPUT code/sais.cc
+INPUT code/sais.cc
+INPUT code/sais.cc
+INPUT code/suffixAutomathine.cc
+INPUT code/suffixAutomathine.cc
+INPUT code/suffixAutomathine.cc
+INPUT code/manacher.cc
+INPUT code/manacher.cc
+INPUT code/manacher.cc
+INPUT code/PAM.cc
+INPUT code/PAM.cc
+INPUT code/PAM.cc
+INPUT code/stringhash.cc
+INPUT code/stringhash.cc
+INPUT code/stringhash.cc
+INPUT code/string_hashmap.cpp
+INPUT code/string_hashmap.cpp
+INPUT code/string_hashmap.cpp
+INPUT code/Planegeometry.txt
+INPUT code/Planegeometry.txt
+INPUT code/Planegeometry.txt
+INPUT code/Graham.cc
+INPUT code/Graham.cc
+INPUT code/Graham.cc
+INPUT code/fourPointPlane.cc
+INPUT code/fourPointPlane.cc
+INPUT code/fourPointPlane.cc
+INPUT code/polygonCore.cc
+INPUT code/polygonCore.cc
+INPUT code/polygonCore.cc
+INPUT code/RotatingJam.cc
+INPUT code/RotatingJam.cc
+INPUT code/RotatingJam.cc
+INPUT code/SimulatedAnnealing.cc
+INPUT code/SimulatedAnnealing.cc
+INPUT code/SimulatedAnnealing.cc
+INPUT code/half_plane_inter_section.cc
+INPUT code/half_plane_inter_section.cc
+INPUT code/half_plane_inter_section.cc
+INPUT code/SJTUgeometry.cc
+INPUT code/SJTUgeometry.cc
+INPUT code/SJTUgeometry.cc
+INPUT code/point.cc
+INPUT code/point.cc
+INPUT code/point.cc
+INPUT code/Fraction.cc
+INPUT code/Fraction.cc
+INPUT code/Fraction.cc
+INPUT code/Matrix.cc
+INPUT code/Matrix.cc
+INPUT code/Matrix.cc
+INPUT code/Matrix01.cc
+INPUT code/Matrix01.cc
+INPUT code/Matrix01.cc
+INPUT code/DataAnalysis.cc
+INPUT code/DataAnalysis.cc
+INPUT code/DataAnalysis.cc
+INPUT code/Bignum.cc
+INPUT code/Bignum.cc
+INPUT code/Bignum.cc
+INPUT code/javaBigIntger.tex
+INPUT code/discretization.cc
+INPUT code/discretization.cc
+INPUT code/discretization.cc
+INPUT code/EnumSubset.cc
+INPUT code/EnumSubset.cc
+INPUT code/EnumSubset.cc
+INPUT code/bitset.txt
+INPUT code/bitset.txt
+INPUT code/bitset.txt
+INPUT code/bitOperation.cc
+INPUT code/bitOperation.cc
+INPUT code/bitOperation.cc
+INPUT code/DLX.cc
+INPUT code/DLX.cc
+INPUT code/DLX.cc
+INPUT code/KDTree.cc
+INPUT code/KDTree.cc
+INPUT code/KDTree.cc
+INPUT code/random.cc
+INPUT code/random.cc
+INPUT code/random.cc
+INPUT code/ODT.cc
+INPUT code/ODT.cc
+INPUT code/ODT.cc
+INPUT code/CDQ.cc
+INPUT code/CDQ.cc
+INPUT code/CDQ.cc
+INPUT code/builtinBitFunction.txt
+INPUT code/builtinBitFunction.txt
+INPUT code/builtinBitFunction.txt
+INPUT code/0-1planning.cpp
+INPUT code/0-1planning.cpp
+INPUT code/0-1planning.cpp
+INPUT code/BM.cc
+INPUT code/BM.cc
+INPUT code/BM.cc
+INPUT ntudocument.aux
+INPUT ./ntudocument.out

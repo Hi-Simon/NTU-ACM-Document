@@ -1,0 +1,189 @@
+# Any line followed by a '#' character is ignored
+# Section headings must be in square brackets
+# Subsections within a section should follow the format:
+#   [filename within code directory][tab character \t][subsection title]
+
+#目录格式：
+#[章节标题]
+#文件名.后缀	算法名称
+
+
+[输入输出]
+sync_with_stdio.cc 	取消同步
+out_float.cc 	浮点数输出格式
+fastInInt.cc	整型快速输入
+fastInString.cc	字符串快速输入
+fastOutInt.cc	整型快速输出
+fastOutString.cc	字符串快速输出
+pythonInput.py	python 输入
+read.java	java 输入
+int128.cc	int128输入输出
+
+[动态规划]
+backpack.cc	背包问题
+LIS(nlogn).cc	最长单调子序列（nlogn)
+LCS.cc	最长公共子序列
+DPmin.cc	单调队列优化DP
+dullQueueDP.cc	单调队列DP
+intervalDP.cc	区间DP
+PeriodofTimeDP.cc	时间段DP
+numDP.cc	数位DP
+math_DP.cc	数位DP
+2dWIS.cc	上升子序列最大和(nlogn)
+
+
+[数论]
+bfisprime.cc	暴力判素数
+Miller_Rabin.cc	米勒罗宾素性检测
+Eratosthenes.cc	埃氏筛
+eulerSieve.cc	欧拉筛
+factorization.cc	分解质因数
+gcd.cc	最大公约数
+lcm.cc	最小公倍数
+exGcd.cc	扩展欧几里得
+crt.cc	中国剩余定理
+exCRT.cc	扩展CRT
+EulerPhi.cc	欧拉函数
+inv.cc	求逆元
+mul.cc	快速乘法取模
+powMod.cc	快速幂取模
+NumofCo-prime.cc	互质对数计数
+Bsgs.cc	BSGS
+Stern-BrocotTree.cc	二分分数树（Stern-Brocot Tree)
+QuadraticResidue.cc		二次剩余
+mobius.cc	计算莫比乌斯函数
+Dujiao.cc	杜教筛
+formula.tex	常用公式
+my_formula.tex	数论公式
+
+[数学]
+Cnmmodp.cc	C(n,m) mod p (n很大p可以很大）
+lucas.cc	Lucas定理
+nC0tonCp.cc	计算从C(n, 0)到C(n, p)的值
+FirstStirling.cc	计算第一类斯特林数
+AdaptiveSimpson.cc	自适应辛普森
+game.txt	博弈论
+LinearBasis.cc	异或线性基
+BigIntegerSqrt.java	java大数开方
+simplex.cc	单纯形法
+rongchi.cc	容斥
+fft_namespace.cc	多项式乘法/平方/取模
+fft.cc	快速傅里叶变换
+ntt.cc	快速数论变换
+fwt.cc	快速沃尔什变换
+CDQfft.cc	分治fft
+polya_necklace.cc	polya项链染色
+colorPolynomial.txt	染色多项式
+derangements.cc		错位排列递推公式
+BBP.cc	BBP公式求pi十六进制的第k位
+
+[图论]
+PriorStar.cc	前向星
+union-find.cc 	并查集
+union-find(undo).cc	可撤销并查集（按秩合并）
+Kruskal.cc	Kruskal最小生成树
+MST_Prim.cc	Prim最小生成树
+SPFA.cc	SPFA 最短路
+dijkstra.cc	dijkstra 最短路
+Floyd.cc	Floyd 任意两点间最短路
+TwoSAT.cc	2-SAT问题
+tarjan.cc	tarjan强连通分量
+Kosaraju.cc	Kosaraju强连通分量
+BCCpoint.cc	点双联通分量
+BCCedge.cc	边双联通分量
+bridge.cc	求桥
+euler_circuit.cc	欧拉回路
+kth_shortest_path.cc	k短路
+floyd_mincycle.cc	最小环
+Directed_MST.cc	最小树形图
+SMST_Prim.cc	次小生成树(Prim)
+SMST_Kruskal.cc	次小生成树(Kruskal)
+determinant.cc	最小生成树计数
+zhuliucount.cc	最小树形图计数
+Dinic.cc	Dinic 最大流
+ISAP.cc		ISAP 最大流
+mincost_maxflow.cc	最小费用最大流
+zkwCostFlow.cc	ZKW费用流
+upperlowerFlow.cc	上下界网络流
+Binarymatching.txt	图匹配理论
+hungary.cc 	二分图最大匹配匈牙利算法
+KM.cc	二分图最大权匹配KM算法
+
+[数据结构]
+BIT.cc	树状数组
+differenceArray.cc	差分数组
+2DBIT.cc	二维树状数组
+inversionPair.cc	树状数组求逆序对
+Heap.cc	堆
+RMQ.cc	RMQ
+RMQ2.cc	RMQ
+segmentTree.cc	线段树
+ZKWsegmentTree.cc	ZKW线段树
+SegmentTreeBeats.cc	吉司机线段树
+scanningLine.cc	扫描线
+linescanMaxSquareCover.cc	固定大小矩形最大点覆盖
+2dsegtree1.cc	二维线段树(单点更新区间最值)
+2dsegtree2.cc	二维线段树(区间加值单点查询)
+chairmantree.cc	主席树	
+BITchairmanTree.cc	主席树动态k大
+treap.cc	Treap树
+fhq_treap.cc	函数式Treap
+splay.cc	Splay树
+splay2.cc	Splay树
+splayTree.cc	Splay树
+pointDC.cc	点分治
+dsu_on_tree.cc	树上启发式合并
+interval_xor_max.cc		0-1trie区间异或最大值
+tree_xor_max.cc		0-1trie子树异或最大值
+mo.cc	莫队算法
+LCAonline.cc	最近公共祖先(在线)
+LCAoffline.cc	最近公共祖先(离线)
+LCAwanggann.cc	最近公共祖先
+heavy_light_decomposition.cpp	树链剖分
+
+
+[字符串]
+KMP.cc	KMP
+exKMP.cc	扩展KMP
+trie.cc	TRIE
+ACautomachine.cc	AC自动机
+SA.cc	后缀数组(倍增)
+sais.cc	后缀数组(sais)
+suffixAutomathine.cc	后缀自动机
+manacher.cc	最长回文子串
+PAM.cc	回文树
+stringhash.cc	字符串哈希算法
+string_hashmap.cpp	字符串哈希表
+
+[几何]
+Planegeometry.txt	平面几何公式
+Graham.cc	求凸包
+fourPointPlane.cc	四点共面
+polygonCore.cc	多边形重心
+RotatingJam.cc	旋转卡壳
+SimulatedAnnealing.cc	模拟退火
+half_plane_inter_section.cc	半平面交
+SJTUgeometry.cc	计算几何
+
+[类]
+point.cc	点类
+Fraction.cc	分数类
+Matrix.cc	矩阵
+Matrix01.cc	01矩阵
+DataAnalysis.cc 	简单大数
+Bignum.cc	大数
+javaBigIntger.tex	java大数
+
+[技巧与黑科技]
+discretization.cc	离散化
+EnumSubset.cc	快速枚举子集
+bitset.txt	bitset
+bitOperation.cc	位运算
+DLX.cc	跳舞链
+KDTree.cc	K-D树
+random.cc	随机
+ODT.cc	珂朵莉树（Old Driver Tree)
+CDQ.cc	CDQ分治
+builtinBitFunction.txt	内置位运算函数
+0-1planning.cpp	0-1分数规划
+BM.cc	BM线性递推

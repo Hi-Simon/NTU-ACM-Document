@@ -1,0 +1,1 @@
+Scanner cin=new Scanner(System.in);// 读入

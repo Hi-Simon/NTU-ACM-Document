@@ -1,0 +1,21 @@
+\begin{enumerate}
+\item 小于n的i，j，gcd(i,j)=1的 i,j的对数与欧拉函数的关系 $\sum_{i=1}^n\sum_{j=1}^n[gcd(i,j)=1]=2\sum_{i=1}^n\sum_{j=1}^i[gcd(i,j)=1]-\sum_{i=1}^n[gcd(i,i)=1]=\big(2\sum_{i=1}^n\varphi(i)\big)-1$
+
+\item 小于n的i,j,且gcd(i,j)=1时，所有i*j的和与欧拉函数的关系 $\sum_{i=1}^{n}i\sum_{j=1}^{n}[gcd(i,j)=1]\cdot j=2\sum_{i=1}^{n}i\sum_{j=1}^i[gcd(i,j)=1]\cdot j-\sum_{i=1}^n[gcd(i,i)=1]\cdot i\\
+=\bigg(2\sum_{i=1}^ni\frac{i\cdot\varphi(i)+[i=1]}{2}\bigg)-1=\bigg(\sum_{i=1}^ni^2\cdot\varphi(i)+[i=1]\bigg)-1$
+
+\item 约数，倍数之间重要的变换 $
+\sum_{k=1}^n\sum_{d|k}d\cdot k=\sum_{k=1}^n\sum_{d=1}^{\frac nk}d\cdot k\cdot d=\sum_{d=1}^n\sum_{k|d}d\cdot \frac dk=\sum_{d=1}^n\sum_{k=1}^{\frac nd}d\cdot k\cdot d=\sum_{d=1}^n\sum_{d|k}d\cdot k=\sum_{k=1}^n\sum_{k|d} d\cdot\frac dk\\$
+
+\item $C_m^n=C_{m-1}^{n-1}+C_{m-1}^n$
+\item $C_n^m = \frac{n!}{m!(n-m)!}$ 
+\item $C_n^m = C_n^{n-m} = C^{m}_{n-1} + C^{m-1}_{n-1}$（杨辉三角）
+\item $C_n^0+C_n^1+C_n^2+...+C_n^n = \sum_{i=0}^{n}{C_n^i} = 2^n$
+\item $C_n^0+C_n^2+C_n^4+... = C_n^1+C_n^3+C_n^5+... = 2^{n-1}$
+\item $C_n^m+C_{n+1}^m+C_{n+2}^m+...+C_{n+m}^m = \sum_{i=0}^{m}C_{n+i}^{m} = C_{n+m+1}^{m+1}$
+\item $k C_n^k = nC_{n-1}^{k-1}$， $\frac{C_n^k}{k+1} = \frac{C_{n+1}^{k+1}}{n+1}$
+\item $\sum\limits_{k=0}^nk*C_m^k=\sum\limits_{k=0}^{n-1}m*C_{m-1}^k$
+\item $C_m^n\%p=C_{m/p}^{n/p}*C_{m\%p}^{n\%p}\%p$（Lucas定理）
+\item $C_{m+n}^k=\sum\limits_{i=0}^kC_m^iC_n^{k-i}$（Vandermonde恒等式）
+\item $\frac{n!}{\prod\limits^k_{i=1}a_i}$（有重复元素的全排列公式，$a_i$为第$i$种元素的个数，$k$为元素种类数）
+\end{enumerate}
