@@ -22,3 +22,30 @@ void print(__int128 x) {
 	if(x > 9) print(x/10);
 	putchar(x%10 + '0');
 }
+// by Simon
+struct Istream {
+	template <class T>
+	Istream &operator >>(T &x) {
+		static char ch;static bool neg;
+		for(ch=neg=0;ch<'0' || '9'<ch;neg|=ch=='-',ch=getchar());
+		for(x=0;'0'<=ch && ch<='9';(x*=10)+=ch-'0',ch=getchar());
+		x=neg?-x:x;
+		return *this;
+	}
+}fin;
+
+struct Ostream {
+	template <class T>
+	Ostream &operator <<(T x) {
+		x<0 && (putchar('-'),x=-x);
+		static char stack[233];static int top;
+		for(top=0;x;stack[++top]=x%10+'0',x/=10);
+		for(top==0 && (stack[top=1]='0');top;putchar(stack[top--]));
+		return *this;
+	}
+
+	Ostream &operator <<(char ch) {
+		putchar(ch);
+		return *this;
+	}
+}fout;

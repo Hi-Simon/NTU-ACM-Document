@@ -19,8 +19,13 @@ pythonInput.py	python 输入
 read.java	java 输入
 int128.cc	int128输入输出
 
+[搜索]
+DequeBFS.cc	双端队列BFS
+AsBfs.cc	Astar启发式搜索
+
 [动态规划]
-backpack.cc	背包问题
+#backpack.cc	背包问题
+#TreeBackpack.cc	树形依赖背包
 LIS(nlogn).cc	最长单调子序列（nlogn)
 LCS.cc	最长公共子序列
 DPmin.cc	单调队列优化DP
@@ -29,11 +34,12 @@ intervalDP.cc	区间DP
 PeriodofTimeDP.cc	时间段DP
 numDP.cc	数位DP
 math_DP.cc	数位DP
-2dWIS.cc	上升子序列最大和(nlogn)
+2dWIS.cc	二维上升子序列最大和(nlogn)
 
 
 [数论]
 bfisprime.cc	暴力判素数
+antiPrime.cc	反素数，求满足因子数个数等于n的最小数
 Miller_Rabin.cc	米勒罗宾素性检测
 Eratosthenes.cc	埃氏筛
 eulerSieve.cc	欧拉筛
@@ -48,6 +54,7 @@ inv.cc	求逆元
 mul.cc	快速乘法取模
 powMod.cc	快速幂取模
 NumofCo-prime.cc	互质对数计数
+proot.cc	原根
 Bsgs.cc	BSGS
 Stern-BrocotTree.cc	二分分数树（Stern-Brocot Tree)
 QuadraticResidue.cc		二次剩余
@@ -63,10 +70,14 @@ nC0tonCp.cc	计算从C(n, 0)到C(n, p)的值
 FirstStirling.cc	计算第一类斯特林数
 AdaptiveSimpson.cc	自适应辛普森
 game.txt	博弈论
+SG.cc	SG函数
+Matrixfpow.cc	矩阵快速幂
+GaussDisposal.cc	高斯消元
 LinearBasis.cc	异或线性基
 BigIntegerSqrt.java	java大数开方
 simplex.cc	单纯形法
 rongchi.cc	容斥
+Lagrangian.cc	拉格朗日插值
 fft_namespace.cc	多项式乘法/平方/取模
 fft.cc	快速傅里叶变换
 ntt.cc	快速数论变换
@@ -111,10 +122,10 @@ KM.cc	二分图最大权匹配KM算法
 
 [数据结构]
 BIT.cc	树状数组
-differenceArray.cc	差分数组
 2DBIT.cc	二维树状数组
 inversionPair.cc	树状数组求逆序对
 Heap.cc	堆
+MonotoneStackAndQueue.cc	单调栈和单调队列
 RMQ.cc	RMQ
 RMQ2.cc	RMQ
 segmentTree.cc	线段树

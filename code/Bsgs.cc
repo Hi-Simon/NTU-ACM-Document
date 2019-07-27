@@ -58,8 +58,9 @@ inline ll exgcd(ll a,ll b,ll &x,ll &y) {
 }
 
 inline ll Bsgs(ll a,ll b,ll mod) {
-	a %= mod, b %= mod;
+	a %= mod, b %= mod; mp.clear();
 	if (b==1) return 0;
+	if (a == 0) return b == 0 ? 1 : -1;
 	ll m = ceil(sqrt(mod)), inv, y;
 	exgcd(fpow(a, m, mod), mod, inv, y);
 	inv = (inv % mod + mod) % mod;
@@ -81,12 +82,13 @@ inline ll Bsgs(ll a,ll b,ll mod) {
 inline ll gcd(ll a, ll b) {
 	return b==0 ? a : gcd(b, a%b);
 }
-
-inline int exBsgs(int a,int b,int mod) {//扩展BSGS, 处理a，mod不互质的情况
-	if(b==1) return 0;
-	for(int g=gcd(a,mod),i=0;g!=1;g=gcd(a,mod),i++)  {
-		if(b%g) return -1;//保证g为a,b,mod的最大公约数
-		mod/=g;
-	}
-	return Bsgs(a,b,mod);
+inline int exBsgs(int a, int b, int p) {//扩展BSGS, 处理a，mod不互质的情况
+    if(b == 1) return 0;
+    int tb = b, tmp = 1;
+    for(int g = gcd(a, p),k=1; g != 1; g = gcd(a, p),k++) {
+        if(tb % g) return -1; //保证g为a,b,p的最大公约数
+        tb /= g; p /= g; tmp = tmp * a / g % p;
+        if(tmp == tb) return k;
+    }
+    return Bsgs(a, b, p);
 }

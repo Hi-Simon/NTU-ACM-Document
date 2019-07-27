@@ -1,4 +1,4 @@
-PWD H:/GitHub/ntu_acm-master
+PWD H:/GitHub/NTU-ACM-Document
 INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt
 INPUT ntudocument.tex
 OUTPUT ntudocument.log
@@ -256,9 +256,12 @@ INPUT code/read.java
 INPUT code/int128.cc
 INPUT code/int128.cc
 INPUT code/int128.cc
-INPUT code/backpack.cc
-INPUT code/backpack.cc
-INPUT code/backpack.cc
+INPUT code/DequeBFS.cc
+INPUT code/DequeBFS.cc
+INPUT code/DequeBFS.cc
+INPUT code/AsBfs.cc
+INPUT code/AsBfs.cc
+INPUT code/AsBfs.cc
 INPUT code/LIS(nlogn).cc
 INPUT code/LIS(nlogn).cc
 INPUT code/LIS(nlogn).cc
@@ -289,6 +292,9 @@ INPUT code/2dWIS.cc
 INPUT code/bfisprime.cc
 INPUT code/bfisprime.cc
 INPUT code/bfisprime.cc
+INPUT code/antiPrime.cc
+INPUT code/antiPrime.cc
+INPUT code/antiPrime.cc
 INPUT code/Miller_Rabin.cc
 INPUT code/Miller_Rabin.cc
 INPUT code/Miller_Rabin.cc
@@ -331,6 +337,9 @@ INPUT code/powMod.cc
 INPUT code/NumofCo-prime.cc
 INPUT code/NumofCo-prime.cc
 INPUT code/NumofCo-prime.cc
+INPUT code/proot.cc
+INPUT code/proot.cc
+INPUT code/proot.cc
 INPUT code/Bsgs.cc
 INPUT code/Bsgs.cc
 INPUT code/Bsgs.cc
@@ -366,6 +375,15 @@ INPUT code/AdaptiveSimpson.cc
 INPUT code/game.txt
 INPUT code/game.txt
 INPUT code/game.txt
+INPUT code/SG.cc
+INPUT code/SG.cc
+INPUT code/SG.cc
+INPUT code/Matrixfpow.cc
+INPUT code/Matrixfpow.cc
+INPUT code/Matrixfpow.cc
+INPUT code/GaussDisposal.cc
+INPUT code/GaussDisposal.cc
+INPUT code/GaussDisposal.cc
 INPUT code/LinearBasis.cc
 INPUT code/LinearBasis.cc
 INPUT code/LinearBasis.cc
@@ -378,6 +396,9 @@ INPUT code/simplex.cc
 INPUT code/rongchi.cc
 INPUT code/rongchi.cc
 INPUT code/rongchi.cc
+INPUT code/Lagrangian.cc
+INPUT code/Lagrangian.cc
+INPUT code/Lagrangian.cc
 INPUT code/fft_namespace.cc
 INPUT code/fft_namespace.cc
 INPUT code/fft_namespace.cc
@@ -498,9 +519,6 @@ INPUT code/KM.cc
 INPUT code/BIT.cc
 INPUT code/BIT.cc
 INPUT code/BIT.cc
-INPUT code/differenceArray.cc
-INPUT code/differenceArray.cc
-INPUT code/differenceArray.cc
 INPUT code/2DBIT.cc
 INPUT code/2DBIT.cc
 INPUT code/2DBIT.cc
@@ -510,6 +528,9 @@ INPUT code/inversionPair.cc
 INPUT code/Heap.cc
 INPUT code/Heap.cc
 INPUT code/Heap.cc
+INPUT code/MonotoneStackAndQueue.cc
+INPUT code/MonotoneStackAndQueue.cc
+INPUT code/MonotoneStackAndQueue.cc
 INPUT code/RMQ.cc
 INPUT code/RMQ.cc
 INPUT code/RMQ.cc

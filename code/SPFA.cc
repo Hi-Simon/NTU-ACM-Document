@@ -1,37 +1,24 @@
-#include <queue> 
-#include <cstring> 
-#include <vector> 
-#define maxn 10007 
-#define INF 0x7FFFFFFF 
-using namespace std;
-struct Edge{ 
-	int v,w;
-	Edge(int v,int w):v(v),w(w){} 
-};
-int d[maxn];
-bool inq[maxn]; 
-vector<Edge> G[maxn];
-void SPFA(int s){ 
-	queue<int> q;
-	memset(inq,0,sizeof(inq)); 
-	for(int i=0;i<maxn;++i)
-		d[i]=INF; 
-	d[s]=0;
-	inq[s]=1; 
-	q.push(s);
-	int u; 
-	while(!q.empty()){
-		u=q.front(); 
-		q.pop(); 
-		inq[u]=0;
-		for(vector<Edge>::iterator e=G[u].begin();e!=G[u].end();++e) {
-			if(d[e->v]>d[u]+e->w){
-				d[e->v]=d[u]+e->w; 
-				if(!inq[e->v]){
-					q.push(e->v);
-					inq[e->v]=1; 
-				}
-			} 
-    	}
-	}	
+/*
+ * Author: Simon
+ * 复杂度: O(ne)
+ */
+bool SPFA(int n,int r){
+    memset(dis,INF,sizeof(dis));dis[r]=0;
+    memset(vis,0,sizeof(vis));vis[r]=1;
+    memset(ccnt,0,sizeof(ccnt));ccnt[r]=1;
+    queue<int>q;q.push(r);
+    while(!q.empty()){
+        int u=q.front();q.pop();vis[u]=0;
+        for(int i=head[u];~i;i=g[i].next){
+            int &v=g[i].v,&w=g[i].w;
+            if(dis[u]+w<dis[v]){
+                dis[v]=dis[u]+w;
+                if(!vis[v]){
+                    q.push(v);vis[v]=1;
+                    if(++ccnt[v]>n) return 1;
+                }
+            }
+        }
+    }
+    return 0;
 }

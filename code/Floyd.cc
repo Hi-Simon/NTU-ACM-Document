@@ -12,3 +12,14 @@ for(int k = 0; k < n; k++) {
 		}
 	}
 }
+/*
+ * Author: Simon
+ * 功能: 传递闭包
+ */
+for(int k=1;k<=n;k++){
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            if(a[i][k]&&a[k][j]) a[i][j]=1;  /*传递闭包 */
+        }
+    }
+}

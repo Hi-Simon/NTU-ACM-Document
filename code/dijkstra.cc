@@ -1,54 +1,41 @@
-#include <vector> 
-#include <queue>
-#define INF 0x7FFFFFFF 
-#define maxn 1000 
-using namespace std;
-class Dijkstra{ 
-private:
-	struct HeapNode{ 
-		int u;
-		int d;
-		HeapNode(int u, int d) :u(u), d(d){}
-		bool operator < (const HeapNode &b) const{
-			return d > b.d; 
-		}
-	};
-	struct Edge{ 
-		int v;
-		int w; 
-		Edge(int v, int w) :v(v), w(w){}
-	}; 
-	vector<Edge>G[maxn];
-	bool vis[maxn];
-public:
-	int d[maxn];
-	void clear(int n){
-		int i;
-		for(i=0;i<n;++i) 
-			G[i].clear(); 
-		for(i=0;i<n;++i) 
-			d[i] = INF;
-		memset(vis, 0, sizeof(vis)); 
+/*
+ * Author: Simon
+ * 复杂度: O(e·nlog(n))
+ */
+namespace Dijkstra{
+    struct node{
+        int v,w,next;
+        node(){}
+        node(int v,int w,int next=-1):v(v),w(w),next(next){}
+        bool operator <(const node&a)const{
+            return w>a.w;
+        }
+    }g[maxn];
+    int head[maxn],cnt=0,dis[maxn];
+    bool vis[maxn];
+    void addedge(int u,int v,int w){
+        g[cnt]=node(v,w,head[u]);
+        head[u]=cnt++;
+    }
+    void init(){
+        memset(head,-1,sizeof(head)); cnt=0;
+    }
+    void Run(int n,int r){
+        fill(dis,dis+n+5,INF);dis[r]=0;
+        memset(vis,0,sizeof(vis));
+        priority_queue<node>q;
+        q.push({r,0});
+        while(!q.empty()){
+            node now=q.top();q.pop();
+            int &u=now.v;
+            if(vis[u]) continue; vis[u]=1;
+            for(int i=head[u];~i;i=g[i].next){
+                int &v=g[i].v,&w=g[i].w;
+                if(!vis[v]&&dis[u]+w<dis[v]){
+                    dis[v]=dis[u]+w;
+                    q.push({v,dis[v]});
+                }
+            }
+        }
 	}
-	void AddEdge(int u, int v, int w){ 
-		G[u].push_back(Edge(v, w));
-	}
-	void Run(int s){ 
-		int u;
-		priority_queue<HeapNode> q;
-		d[s] = 0; 
-		q.push(HeapNode(s, 0)); 
-		while (!q.empty()){
-			u = q.top().u;
-			q.pop();
-			if (!vis[u]){
-				vis[u] = 1;
-				for (vector<Edge>::iterator e = G[u].begin(); e != G[u].end(); ++e)
-					if (d[e->v] > d[u] + e->w){ 
-						d[e->v] = d[u] + e->w;
-						q.push(HeapNode(e->v, d[e->v])); 
-					}
-			}
-		}
-	}
-};
+}

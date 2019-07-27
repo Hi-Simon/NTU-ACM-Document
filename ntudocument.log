@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.1)  20 MAY 2019 20:28
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.1)  26 JUL 2019 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,11 +1051,11 @@ Make it at least 12.64723pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[1] [2])
+[1] [2] [3])
 \tf@toc=\write4
 \openout4 = `ntudocument.toc'.
 
- (./contents.tex [3]
+ (./contents.tex [4]
 第一章
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 3.
@@ -1071,7 +1071,7 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 (h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.
 sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-) (./code/fastInInt.cc [4
+) (./code/fastInInt.cc [5
 
 ]) (./code/fastInString.cc
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
@@ -1079,7 +1079,7 @@ Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 ) (./code/fastOutInt.cc)
-[5] (./code/fastOutString.cc)
+[6] (./code/fastOutString.cc)
 (h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1
 .sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
@@ -1090,27 +1090,30 @@ Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT
 (h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1
 .sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
-) (./code/read.java) (./code/int128.cc) [6]
+) (./code/read.java) (./code/int128.cc [7]) [8]
 第二章
-(./code/backpack.cc) (./code/LIS(nlogn).cc [7
+(./code/DequeBFS.cc) [9
 
-]) (./code/LCS.cc)
-(./code/DPmin.cc) [8] (./code/dullQueueDP.cc) (./code/intervalDP.cc [9])
-(./code/PeriodofTimeDP.cc) (./code/numDP.cc [10]) (./code/math_DP.cc [11])
-(./code/2dWIS.cc [12]) [13]
+] (./code/AsBfs.cc [10]) [11]
 第三章
-(./code/bfisprime.cc) (./code/Miller_Rabin.cc) [14
+(./code/LIS(nlogn).cc [12
 
-] (./code/Eratosthenes.cc)
-(./code/eulerSieve.cc) (./code/factorization.cc [15]) (./code/gcd.cc)
-(./code/lcm.cc) (./code/exGcd.cc [16]) (./code/crt.cc) (./code/exCRT.cc)
-(./code/EulerPhi.cc [17]) (./code/inv.cc) (./code/mul.cc) (./code/powMod.cc
-[18]) (./code/NumofCo-prime.cc) (./code/Bsgs.cc [19] [20])
-(./code/Stern-BrocotTree.cc [21]) (./code/QuadraticResidue.cc) [22]
-(./code/mobius.cc) (./code/Dujiao.cc) (./code/formula.tex [23]
+]) (./code/LCS.cc) (./code/DPmin.cc [13])
+(./code/dullQueueDP.cc) [14] (./code/intervalDP.cc) (./code/PeriodofTimeDP.cc)
+(./code/numDP.cc [15]) (./code/math_DP.cc [16]) (./code/2dWIS.cc [17]) [18]
+第四章
+(./code/bfisprime.cc) (./code/antiPrime.cc) [19
+
+] (./code/Miller_Rabin.cc)
+(./code/Eratosthenes.cc) (./code/eulerSieve.cc [20]) (./code/factorization.cc)
+(./code/gcd.cc [21]) (./code/lcm.cc) (./code/exGcd.cc) (./code/crt.cc [22])
+(./code/exCRT.cc) (./code/EulerPhi.cc [23]) (./code/inv.cc) [24] (./code/mul.cc
+) (./code/powMod.cc) (./code/NumofCo-prime.cc [25]) (./code/proot.cc)
+(./code/Bsgs.cc [26] [27]) (./code/Stern-BrocotTree.cc [28])
+(./code/QuadraticResidue.cc) [29] (./code/mobius.cc) (./code/Dujiao.cc)
+(./code/formula.tex [30]
 Missing character: There is no ⋅ in font [lmroman10-regular]:mapping=tex-text;!
- [24])
-(./code/my_formula.tex [25]
+ [31]) (./code/my_formula.tex [32]
 Overfull \hbox (23.69775pt too wide) in paragraph at lines 4--6
 []\TU/SimSun(0)/m/n/10.53937 小 于 \TU/lmr/m/n/10.53937 n \TU/SimSun(0)/m/n/10.53
 937 的 \TU/lmr/m/n/10.53937 i,j, \TU/SimSun(0)/m/n/10.53937 且 \TU/lmr/m/n/10.539
@@ -1128,94 +1131,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
-) [26]
-第四章
-(./code/Cnmmodp.cc) (./code/lucas.cc) (./code/nC0tonCp.cc [27
+) [33]
+第五章
+(./code/Cnmmodp.cc) (./code/lucas.cc) (./code/nC0tonCp.cc [34
 
 ])
-(./code/FirstStirling.cc) (./code/AdaptiveSimpson.cc [28]) (./code/game.txt
-[29]) (./code/LinearBasis.cc [30]) (./code/BigIntegerSqrt.java [31])
-(./code/simplex.cc [32]
+(./code/FirstStirling.cc) [35] (./code/AdaptiveSimpson.cc) (./code/game.txt
+[36]) (./code/SG.cc [37]) (./code/Matrixfpow.cc [38]) (./code/GaussDisposal.cc
+[39] [40]) (./code/LinearBasis.cc [41] [42]) (./code/BigIntegerSqrt.java
+[43]) (./code/simplex.cc [44]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-) (./code/rongchi.cc [33]) (./code/fft_namespace.cc
-[34] [35] [36]) (./code/fft.cc [37]) (./code/ntt.cc [38]) (./code/fwt.cc)
-[39] (./code/CDQfft.cc) (./code/polya_necklace.cc [40])
-(./code/colorPolynomial.txt) (./code/derangements.cc) (./code/BBP.cc [41])
-[42]
-第五章
+) (./code/rongchi.cc) [45] (./code/Lagrangian.cc)
+(./code/fft_namespace.cc [46] [47] [48] [49]) (./code/fft.cc [50])
+(./code/ntt.cc) [51] (./code/fwt.cc) (./code/CDQfft.cc [52])
+(./code/polya_necklace.cc) (./code/colorPolynomial.txt) (./code/derangements.cc
+[53]) (./code/BBP.cc [54]) [55]
+第六章
 (./code/PriorStar.cc
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-) (./code/union-find.cc [43
+) (./code/union-find.cc [56
 
 ]) (./code/union-find(undo).cc
-[44]) (./code/Kruskal.cc [45]) (./code/MST_Prim.cc) (./code/SPFA.cc [46])
-(./code/dijkstra.cc [47]) (./code/Floyd.cc) [48] (./code/twoSAT.cc) [49]
-(./code/tarjan.cc [50]) (./code/Kosaraju.cc [51]) (./code/BCCpoint.cc [52])
-(./code/BCCedge.cc [53] [54]) (./code/bridge.cc [55]) (./code/euler_circuit.cc
-[56]) (./code/kth_shortest_path.cc [57] [58]
+[57]) (./code/Kruskal.cc [58]) (./code/MST_Prim.cc) (./code/SPFA.cc [59])
+(./code/dijkstra.cc [60]) (./code/Floyd.cc) (./code/twoSAT.cc [61])
+(./code/tarjan.cc [62] [63]) (./code/Kosaraju.cc [64]) (./code/BCCpoint.cc
+[65]) (./code/BCCedge.cc [66] [67]) (./code/bridge.cc [68])
+(./code/euler_circuit.cc) [69] (./code/kth_shortest_path.cc [70]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-) (./code/floyd_mincycle.cc)
-(./code/Directed_MST.cc [59]
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-) (./code/SMST_Prim.cc [60])
-(./code/SMST_Kruskal.cc [61] [62]) (./code/determinant.cc [63])
-(./code/zhuliucount.cc [64] [65]) (./code/Dinic.cc [66]) [67] (./code/ISAP.cc
-[68]) [69] (./code/mincost_maxflow.cc [70]) (./code/zkwCostFlow.cc [71])
-[72] (./code/upperlowerFlow.cc [73]
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
- [74] [75] [76]
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
- [77] [78]
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
+)
+(./code/floyd_mincycle.cc [71]) (./code/Directed_MST.cc [72]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
@@ -1225,20 +1174,10 @@ Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 )
-(./code/Binarymatching.txt [79] [80]) (./code/hungary.cc [81]) (./code/KM.cc
-[82]) [83]
-第六章
-(./code/BIT.cc) (./code/differenceArray.cc [84
-
-]) (./code/2DBIT.cc)
-(./code/inversionPair.cc [85] [86]) (./code/Heap.cc) (./code/RMQ.cc [87])
-(./code/RMQ2.cc) (./code/segmentTree.cc [88]) [89] (./code/ZKWsegmentTree.cc)
-(./code/SegmentTreeBeats.cc [90] [91] [92]) (./code/scanningLine.cc [93]
-[94] [95] [96]) (./code/linescanMaxSquareCover.cc [97]) [98]
-(./code/2dsegtree1.cc [99]) [100] (./code/2dsegtree2.cc [101])
-(./code/chairmantree.cc [102] [103]) (./code/BITchairmanTree.cc [104] [105]
-[106]) (./code/treap.cc [107]) (./code/fhq_treap.cc [108] [109]) [110]
-(./code/splay.cc [111] [112]
+(./code/SMST_Prim.cc [73]) (./code/SMST_Kruskal.cc [74]) (./code/determinant.cc
+[75]) [76] (./code/zhuliucount.cc [77] [78]) (./code/Dinic.cc [79])
+(./code/ISAP.cc [80] [81]) (./code/mincost_maxflow.cc [82])
+(./code/zkwCostFlow.cc [83] [84]) (./code/upperlowerFlow.cc [85] [86]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
@@ -1247,66 +1186,133 @@ Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
- [113] [114]
+ [87]
+[88]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-) (./code/splay2.cc [115] [116]
-[117]
-Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
-!
-) (./code/splayTree.cc [118] [119]) (./code/pointDC.cc [120]) [121]
-(./code/dsu_on_tree.cc) (./code/interval_xor_max.cc [122] [123]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-)
-(./code/tree_xor_max.cc [124] [125]) (./code/mo.cc [126]) (./code/LCAonline.cc
-[127]) (./code/LCAoffline.cc [128]) (./code/LCAwanggann.cc [129] [130] [131])
-(./code/heavy_light_decomposition.cpp [132]) [133]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+ [89] [90]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+ [91]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+) (./code/Binarymatching.txt [92]) [93] (./code/hungary.cc)
+(./code/KM.cc [94]) [95]
 第七章
-(./code/KMP.cc) (./code/exKMP.cc [134
+(./code/BIT.cc [96
 
-]) (./code/trie.cc [135])
-(./code/ACautomachine.cc [136]) (./code/SA.cc [137]
+] [97]) (./code/2DBIT.cc [98]) (./code/inversionPair.cc
+[99]) (./code/Heap.cc [100]) (./code/MonotoneStackAndQueue.cc [101])
+(./code/RMQ.cc) (./code/RMQ2.cc [102]) (./code/segmentTree.cc [103])
+(./code/ZKWsegmentTree.cc [104]) (./code/SegmentTreeBeats.cc [105] [106]
+[107]) (./code/scanningLine.cc [108] [109] [110] [111])
+(./code/linescanMaxSquareCover.cc [112]) (./code/2dsegtree1.cc [113] [114])
+(./code/2dsegtree2.cc [115]) [116] (./code/chairmantree.cc [117] [118])
+(./code/BITchairmanTree.cc [119] [120]) (./code/treap.cc [121] [122])
+(./code/fhq_treap.cc [123] [124]) (./code/splay.cc [125] [126] [127]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-) [138] (./code/sais.cc)
-[139] (./code/suffixAutomathine.cc [140]) (./code/manacher.cc) (./code/PAM.cc
-[141]) (./code/stringhash.cc [142] [143]) (./code/string_hashmap.cpp [144])
-[145]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+ [128]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+)
+[129] (./code/splay2.cc [130] [131]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+) [132] (./code/splayTree.cc [133] [134])
+(./code/pointDC.cc [135]) (./code/dsu_on_tree.cc [136])
+(./code/interval_xor_max.cc [137]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+ [138]) (./code/tree_xor_max.cc [139])
+[140] (./code/mo.cc) [141] (./code/LCAonline.cc) (./code/LCAoffline.cc [142])
+(./code/LCAwanggann.cc [143] [144] [145]) [146]
+(./code/heavy_light_decomposition.cpp [147]) [148]
 第八章
-(./code/Planegeometry.txt [146
+(./code/KMP.cc) (./code/exKMP.cc [149
 
-]) (./code/Graham.cc [147])
-(./code/fourPointPlane.cc [148]) (./code/polygonCore.cc [149])
-(./code/RotatingJam.cc [150] [151]) (./code/SimulatedAnnealing.cc [152]
+]) (./code/trie.cc [150])
+(./code/ACautomachine.cc [151]) (./code/SA.cc [152]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-)
-(./code/half_plane_inter_section.cc [153] [154]) (./code/SJTUgeometry.cc
-[155] [156] [157] [158] [159] [160] [161] [162] [163]) [164]
+) [153] (./code/sais.cc)
+[154] (./code/suffixAutomathine.cc [155]) (./code/manacher.cc) [156]
+(./code/PAM.cc [157]) (./code/stringhash.cc [158]) (./code/string_hashmap.cpp
+[159]) [160]
 第九章
-(./code/point.cc) (./code/Fraction.cc [165
+(./code/Planegeometry.txt [161
 
-]) (./code/Matrix.cc [166]
+]) (./code/Graham.cc [162])
+(./code/fourPointPlane.cc [163]) (./code/polygonCore.cc [164])
+(./code/RotatingJam.cc [165] [166]) (./code/SimulatedAnnealing.cc [167]
+Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
+!
+)
+(./code/half_plane_inter_section.cc [168] [169]) (./code/SJTUgeometry.cc
+[170] [171] [172] [173] [174] [175] [176] [177] [178]) [179]
+第十章
+(./code/point.cc) (./code/Fraction.cc [180
+
+]) (./code/Matrix.cc [181]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 )
-(./code/Matrix01.cc [167]) (./code/DataAnalysis.cc) [168] (./code/Bignum.cc
-[169] [170] [171] [172]) (./code/javaBigIntger.tex [173]) [174]
-第十章
+(./code/Matrix01.cc [182]) (./code/DataAnalysis.cc) [183] (./code/Bignum.cc
+[184] [185] [186] [187]) (./code/javaBigIntger.tex [188]) [189]
+第十一章
 (./code/discretization.cc) (./code/EnumSubset.cc
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
- [175
+ [190
 
 ]) (./code/bitset.txt)
-(./code/bitOperation.cc [176]) (./code/DLX.cc [177]) (./code/KDTree.cc [178]
+(./code/bitOperation.cc [191]) (./code/DLX.cc [192]) (./code/KDTree.cc [193]
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
@@ -1318,20 +1324,20 @@ Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
 
-[179]) (./code/random.cc
+[194]) (./code/random.cc
 Missing character: There is no ␣ in font Consolas/OT:script=latn;language=DFLT;
 !
-) (./code/ODT.cc [180]) (./code/CDQ.cc [181])
-(./code/builtinBitFunction.txt [182]) (./code/0-1planning.cpp) (./code/BM.cc
-[183] [184] [185]))
+) (./code/ODT.cc [195]) (./code/CDQ.cc [196])
+(./code/builtinBitFunction.txt [197]) (./code/0-1planning.cpp) (./code/BM.cc
+[198] [199] [200]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
- [186]
+ [201]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
  (./ntudocument.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 109.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 Package rerunfilecheck Info: File `ntudocument.out' has not changed.
-(rerunfilecheck)             Checksum: B16182F3A735E5F9A1214774AE529F22.
+(rerunfilecheck)             Checksum: 4779019F595EC7CB2EE97E6509DCF711.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1340,12 +1346,12 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 31032 strings out of 492933
- 593484 string characters out of 6126362
- 1143379 words of memory out of 5000000
- 34294 multiletter control sequences out of 15000+600000
+ 31182 strings out of 492933
+ 597525 string characters out of 6126362
+ 1143553 words of memory out of 5000000
+ 34423 multiletter control sequences out of 15000+600000
  539337 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  54i,12n,68p,815b,1937s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ntudocument.xdv (187 pages, 9579152 bytes).
+Output written on ntudocument.xdv (202 pages, 10462812 bytes).
