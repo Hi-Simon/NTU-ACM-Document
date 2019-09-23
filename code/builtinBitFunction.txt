@@ -47,3 +47,15 @@ Similar to __builtin_popcount, except the argument type is unsigned long long.
 
 — Built-in Function: int __builtin_parityll (unsigned long long)
 Similar to __builtin_parity, except the argument type is unsigned long long.
+
+
+
+随机数函数：
+default_random_engine：随机非负数（不建议单独使用）。
+uniform_int_distribution：指定范围的随机非负数。
+uniform_real_distribution：指定范围的随机实数。
+bernoulli_distribution：指定概率的随机布尔值。
+
+示例:default_random_engine e;
+    uniform_int_distribution<int>u(0,9);
+    cout<<u(e)<<endl;

@@ -24,16 +24,40 @@ bool greater1(int value) {
 **********/
 /*
  * Author: Simon
- * 功能: 求最长不下降子序列
+ * 功能: 求最长不下降子序列的长度
+ * 复杂度: O(nlog(n))
  */
-int dp[maxn];
-int solve(int n){
-    memset(dp,INF,sizeof(dp));
+int solve(int n,int a[]){
+    int dp[maxn]; memset(dp, INF, sizeof(dp));
     for(int i=1;i<=n;i++){
         *upper_bound(dp+1,dp+n+1,a[i])=a[i];
     }
     int ans=lower_bound(dp+1,dp+n+1,INF)-dp;
     return ans;
+}
+/*
+ * Author: Simon
+ * 功能: 求最长上升子序列
+ * 复杂度: O(nlog(n))
+ */
+vector<int> solve(int n,int p[]){
+    vector<int>f;f.push_back(0);
+    int a[n+5]; /*记录每个数的前一个数是多少 */
+    for(int i=1;i<=n;i++){
+        auto it=lower_bound(f.begin(),f.end(),p[i]);
+        if(it==f.end()){
+            a[p[i]]=f.back();
+            f.push_back(p[i]);
+        }
+        else{
+            *it=p[i];it--;
+            a[p[i]]=*it;
+        }
+    }
+    vector<int>vis; /*最长上升子序列 */
+    for(int t=f.back();t;t=a[t]) vis.push_back(t);
+    reverse(vis.begin(),vis.end());
+    return vis;
 }
 /*
  * Author: Simon

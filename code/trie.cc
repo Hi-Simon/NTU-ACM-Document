@@ -7,8 +7,8 @@ void Insert(char *str) {
 	for (int i = 0; i < len; i++) {
 		int id = str[i] - 'a';
 		if (!tree[root][id]) tree[root][id] = ++tot;
-		sum[tree[root][id]]++;
 		root = tree[root][id];
+		sum[root]++;
 	}
 }
 

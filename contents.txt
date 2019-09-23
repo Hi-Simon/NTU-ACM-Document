@@ -24,8 +24,8 @@ DequeBFS.cc	双端队列BFS
 AsBfs.cc	Astar启发式搜索
 
 [动态规划]
-#backpack.cc	背包问题
-#TreeBackpack.cc	树形依赖背包
+BackpackProblem.cc	背包问题合集
+TreeBackpack.cc	树形依赖背包
 LIS(nlogn).cc	最长单调子序列（nlogn)
 LCS.cc	最长公共子序列
 DPmin.cc	单调队列优化DP
@@ -47,19 +47,23 @@ factorization.cc	分解质因数
 gcd.cc	最大公约数
 lcm.cc	最小公倍数
 exGcd.cc	扩展欧几里得
+Deviation.cc	法雷分数(辗转相除法)
 crt.cc	中国剩余定理
 exCRT.cc	扩展CRT
 EulerPhi.cc	欧拉函数
+SuperPower.cc	递归欧拉降幂
 inv.cc	求逆元
 mul.cc	快速乘法取模
 powMod.cc	快速幂取模
 NumofCo-prime.cc	互质对数计数
 proot.cc	原根
 Bsgs.cc	BSGS
+pohlig_hellman.cc	离散对数问题(高阶BSGS)
 Stern-BrocotTree.cc	二分分数树（Stern-Brocot Tree)
-QuadraticResidue.cc		二次剩余
+SecondarySurplus.cc		二次剩余
 mobius.cc	计算莫比乌斯函数
 Dujiao.cc	杜教筛
+Min25.cc	Min25筛
 formula.tex	常用公式
 my_formula.tex	数论公式
 
@@ -105,6 +109,9 @@ BCCedge.cc	边双联通分量
 bridge.cc	求桥
 euler_circuit.cc	欧拉回路
 kth_shortest_path.cc	k短路
+pre_kth_shortest_path.cc	前k短路
+GlobalKthShortestPath.cc	全局k短路
+kthMinWeightMatch.cc	k小带权匹配
 floyd_mincycle.cc	最小环
 Directed_MST.cc	最小树形图
 SMST_Prim.cc	次小生成树(Prim)
