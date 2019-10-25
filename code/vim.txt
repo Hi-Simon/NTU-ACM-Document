@@ -1,0 +1,31 @@
+syntax on
+set nu
+set cindent
+set tabstop=4
+set shiftwidth=4
+set noswapfile
+set mouse=a
+
+map <C-A> ggVG"+y
+
+func Close(char)
+    if getline(".")[col('.')-1]==a:char
+        return "\<Right>"
+    else return a:char
+    endif
+endfunc
+
+inoremap { {}<Esc>i
+inoremap } <c-r>=Close('}')<CR>
+inoremap ( ()<Esc>i
+inoremap ) <c-r>=Close(')')<CR>
+inoremap [ []<Esc>i
+inoremap ] <c-r>=Close(']')<CR>
+
+
+map <F9> :call Run()<CR>
+func! Run()
+    exec "w"
+    exec "!g++ -std=c++11 -O2 % -o %<"
+    exec "!time ./%<"
+endfunc

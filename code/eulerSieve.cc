@@ -1,19 +1,12 @@
-#include <iostream>
-
-const int maxn = "Edit";
-int flag[maxn], primes[maxn], totPrimes;
-
-void euler_sieve(int n) {
-	totPrimes = 0;
-	memset(flag, 0, sizeof(flag));
-	for (int i = 2; i <= n; i++) {
-		if (!flag[i]) {
-			primes[totPrimes++] = i;
-		}
-		for (int j = 0; i * primes[j] <= n; j++) {
-			flag[i * primes[j]] = true;
-			if (i % primes[j] == 0)
-			break;
-		}
-	}
+int prime[maxn], cnt = 0;
+bool vis[maxn] = {1, 1};
+void Euler(int n) {
+    cnt = 0;
+    for (int i = 2; i <= n; i++) {
+        if (!vis[i]) prime[++cnt] = i;
+        for (int j = 1; j <= cnt && i * prime[j] <= n; j++) {
+            vis[i * prime[j]] = true;
+            if (i % prime[j] == 0) break;
+        }
+    }
 }

@@ -7,6 +7,9 @@
 #[章节标题]
 #文件名.后缀	算法名称
 
+[配置]
+vim.txt	VIM配置
+head.cc	基础头文件
 
 [输入输出]
 sync_with_stdio.cc 	取消同步
@@ -71,6 +74,7 @@ my_formula.tex	数论公式
 Cnmmodp.cc	C(n,m) mod p (n很大p可以很大）
 lucas.cc	Lucas定理
 nC0tonCp.cc	计算从C(n, 0)到C(n, p)的值
+BellNumber.cc	求贝尔数（模p）
 FirstStirling.cc	计算第一类斯特林数
 AdaptiveSimpson.cc	自适应辛普森
 game.txt	博弈论

@@ -215,25 +215,31 @@ INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfon
 INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT ntudocument.toc
 INPUT contents.tex
-INPUT code/sync_with_stdio.cc
-INPUT code/sync_with_stdio.cc
-INPUT code/sync_with_stdio.cc
-INPUT code/out_float.cc
-INPUT code/out_float.cc
-INPUT code/out_float.cc
-INPUT code/fastInInt.cc
-INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT code/fastInInt.cc
-INPUT code/fastInInt.cc
+INPUT code/vim.txt
+INPUT code/vim.txt
+INPUT code/vim.txt
 INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT code/head.cc
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT h:/Latex/Texlive/main home/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT code/head.cc
+INPUT code/head.cc
+INPUT code/sync_with_stdio.cc
+INPUT code/sync_with_stdio.cc
+INPUT code/sync_with_stdio.cc
+INPUT code/out_float.cc
+INPUT code/out_float.cc
+INPUT code/out_float.cc
+INPUT code/fastInInt.cc
+INPUT code/fastInInt.cc
+INPUT code/fastInInt.cc
 INPUT code/fastInString.cc
 INPUT code/fastInString.cc
 INPUT code/fastInString.cc
@@ -384,6 +390,9 @@ INPUT code/lucas.cc
 INPUT code/nC0tonCp.cc
 INPUT code/nC0tonCp.cc
 INPUT code/nC0tonCp.cc
+INPUT code/BellNumber.cc
+INPUT code/BellNumber.cc
+INPUT code/BellNumber.cc
 INPUT code/FirstStirling.cc
 INPUT code/FirstStirling.cc
 INPUT code/FirstStirling.cc

@@ -1,6 +1,6 @@
 /*
  * Author: Simon
- * 复杂度: O(e·nlog(n))
+ * 复杂度: O(e·log(n))
  */
 namespace Dijkstra{
     struct node{

@@ -1,14 +1,14 @@
-using LL = long long;
-
-LL PowMod(LL a, LL b, const LL &Mod) { 
-	a %= Mod;
-	LL ans = 1; 
-	while(b) {
-		if (b & 1){
-			ans = (ans * a) % Mod; 
-		} 
-		a = (a * a) % Mod;
-		b >>= 1;
+/*
+ * Author: Simon
+ * 复杂度: O(log(n))
+ * 功能: 快速幂
+ */
+int fpow(int a,int b,const int &mod){
+	int ans=1;a%=mod;
+	while(b){
+		if(b&1) ans=(1LL*ans*a)%mod;
+		a=(1LL*a*a)%mod;
+		b>>=1;
 	}
-	return ans; 
+	return ans;
 }

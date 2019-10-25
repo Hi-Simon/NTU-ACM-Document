@@ -1,72 +1,79 @@
-const int maxn = "Edit";
+/*
+ * Author: Simon
+ * 复杂度: O(nlog(n))
+ * 功能: 点分治求树上满足边长小于k的（u，v）的对数
+ */
+namespace PDC {
+    struct node {
+        int v, w, next;
+        node() {}
+        node(int v, int w, int next) : v(v), w(w), next(next) {}
+    } g[maxn << 1];
+    int head[maxn], cnt = 0;
+    int rt /*树重心*/, son[maxn] /*不包含当前节点的所有子树的最大size*/, sz[maxn] /*当前节点为根的子树的size*/;
+    int q[maxn] /*子树所有节点到根节点的距离*/, len, ans = 0;
+    bool vis[maxn];
+    void init() {
+        memset(head, -1, sizeof(head));
+        memset(vis, 0, sizeof(vis));
+        ans = 0; son[0] = INF; cnt = 0;
+    }
+    void addedge(int u, int v, int w) {
+        g[cnt] = node(v, w, head[u]);
+        head[u] = cnt++;
+    }
+    void getrt(int u, int p, int tot) { /*获得树的重心*/
+        sz[u] = 1; son[u] = 0;
+        for (int i = head[u]; ~i; i = g[i].next) {
+            int v = g[i].v;
+            if (v == p || vis[v]) continue;
+            getrt(v, u, tot);
+            sz[u] += sz[v];
+            son[u] = max(son[u], sz[v]);
+        }
+        son[u] = max(son[u], tot - sz[u]);
+        if (son[u] < son[rt]) rt = u;
+    }
+    void getdis(int u, int p, int pw) { /*求出以u为根节点的所有子节点到fa[u]的距离*/
+        q[++len] = pw; sz[u] = 1;
+        for (int i = head[u]; ~i; i = g[i].next) {
+            int v = g[i].v, w = g[i].w;
+            if (v == p || vis[v]) continue;
+            getdis(v, u, pw + w);
+            sz[u] += sz[v];
+        }
+    }
+    int solve(int u, int w) { /*根据具体题目变化*/
+        len = 0; getdis(u, -1, w);
+        sort(q + 1, q + r + 1); /*按到根节点的距离排序*/
 
-struct Edge {
-	int to, nxt, dis;
-} g[maxn];
-int head[maxn], cnt, f[maxn], dd[maxn], size[maxn], d[maxn];
-int n, k, rt, ans, con, len;
-bool vis[maxn];
-
-void add(int u, int v, int dis) { 
-	g[++ cnt] = (Edge){v, head[u], dis}; 
-	head[u] = cnt;
-}
-
-void add_edge(int u, int v, int dis) {
-	add(u, v, dis); 
-	add(v, u, dis);
-}
-
-void clr(){
-	for(int i = 1; i <= n; i ++) {
-		vis[i] = f[i] = size[i] = head[i] = dd[i] = 0;
-	}
-	cnt = rt = 0, f[0] = 1e9, con = n, len = ans = 0;
-}
-
-void getrt(int u, int fafa){
-	size[u] = 1; 
-	f[u] = 0;
-	for(int i = head[u]; i; i = g[i].nxt){
-		int v = g[i].to; if(v == fafa || vis[v]) continue;
-		getrt(v, u); 
-		size[u] += size[v];
-		f[u] = std::max(f[u], size[v]);
-	}
-	f[u] = std::max(f[u], con - size[u]);
-	if(f[u] < f[rt]) {
-		rt = u;
-	}
-}
-
-void getdis(int u, int fafa){
-	size[u] = 1;
-	dd[++ len] = d[u];
-	for(int i = head[u]; i; i = g[i].nxt){
-		int v = g[i].to; if(v == fafa || vis[v]) continue;
-		d[v] = d[u] + g[i].dis; getdis(v, u);
-		size[u] += size[v];
-	}
-}
-
-int cal(int u, int w){
-	len = 0; d[u] = w; getdis(u, 0);
-	std::sort(dd + 1, dd + len + 1);
-	int l = 1, r = len, sum = 0;
-	while(l < r){
-		if(dd[l] + dd[r] <= k) sum += r - l, l ++;
-		else r --;
-	}
-	return sum;
-}
-
-void solve(int u){
-	vis[u] = 1; ans += cal(u, 0);
-	for(int i = head[u]; i; i = g[i].nxt){
-		int v = g[i].to; if(vis[v]) continue;
-		ans -= cal(v, g[i].dis);
-		rt = 0; con = size[v];
-		getrt(v, 0); 
-		solve(rt);
-	}
+        int ans = 0, l = 1, r = len;
+        while (l < r) {
+            if (q[l] + q[r] <= k) ans += r - l, l++; /*若q[l]+q[r]<=k，则q[l]+q[l+1],q[l]+q[l+2],...,q[l]+q[r]都满足<=k*/
+            else r--;
+        }
+        /* 求有多少条长度为k的路径
+        int l = 1, r = 1, ans = 0;
+        for (int i = 1; i <= len; i++) {
+            l = lower_bound(q + i + 1, q + len + 1, k - q[i]) - q;
+            r = upper_bound(q + i + 1, q + len + 1, k - q[i]) - q;
+            ans += r - l; //求得到根节点长度为k-q[i]的路径个数
+        }
+        */
+        return ans;
+    }
+    void dfs(int u) {
+        vis[u] = 1; ans += solve(u, 0); /*先算上以u为根的子树的贡献*/
+        for (int i = head[u]; ~i; i = g[i].next) {
+            int v = g[i].v, w = g[i].w;
+            if (vis[v]) continue;
+            ans -= solve(v, w); /*减去以u~v这条边为重边而多计算的部分*/
+            rt = 0; getrt(v, -1, sz[v]); /*求以v的子树的重心*/
+            dfs(rt);
+        }
+    }
+    void Run(int u, int n) {
+        getrt(1, -1, n);
+        dfs(rt);
+    }
 }
