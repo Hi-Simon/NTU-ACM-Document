@@ -1,46 +1,60 @@
 /*
-MSTËã·¨(Kruskal)£º
-eÊı×é¼ÇÂ¼Ã¿Ìõ±ß£¬ÏÂ±ê1~n£¬pre¼ÇÂ¼²¢²é¼¯¸ù½Úµã£¬lef¼ÇÂ¼Ê£ÓàÎ´Á¬½ÓÊıÁ¿£¬ansÎª×î¶ÌÂ·¾¶
-×¢£ºKruskalËã·¨¸üÊÊÓÃÏ¡ÊèÍ¼
-*/
-
-struct edge {
-	int s, t, w;	//´Ósµ½t£¬È¨Öµw
-	edge() {}
-	edge(int s, int t, int w) :s(s), t(t), w(w) {}
-}e[maxn];
-
-int pre[maxn];
-
-int find(int x) {
-	int r = x, i = x, j;
-	while (pre[r] != r)
-		r = pre[r];
-	while (i != r) {	//×´Ì¬Ñ¹Ëõ
-		j = pre[i];
-		pre[i] = r;
-		i = j;
-	}
-	return r;
-}
-
-int cmp(edge e1, edge e2) {
-	return e1.w < e2.w;
-}
-
-int kruskal(int n, int m) {	//nÎª±ßÊı£¬mÎªµãÊı
-	int lef = m - 1, ans = 0;
-	for (int i = 1; i <= m; i++)pre[i] = i;
-	sort(e + 1, e + n + 1, cmp);
-	for (int i = 1; i <= n; i++) {
-		int fs = find(e[i].s), ft = find(e[i].t);
-		if (fs != ft) {
-			pre[fs] = ft;
-			ans += e[i].w;
-			lef--;
-		}
-		if (!lef)break;
-	}
-	if (lef)ans = 0;	//Í¼²»Á¬Í¨
-	return ans;
+ * Author: Simon
+ * å¤æ‚åº¦: mlog(m)
+ * åŠŸèƒ½: é€‚ç”¨äºç¨€ç–å›¾æ±‚MST
+ */
+namespace Kruskal{
+    int Set[maxn], Rank[maxn],cnt=0;//å¹¶æŸ¥é›† rank
+    struct node{
+        int u,v,w;
+        node(){}
+        node(int u,int v,int w):u(u),v(v),w(w){}
+        bool operator <(const node&a)const{
+            return w<a.w;
+        }
+    }g[maxm];//ç»“æ„ä½“å‚¨å­˜
+    void init(int n) {
+        for (int i = 0; i <= n; i++) {
+            Rank[i] = 0; Set[i] = i;
+        }
+    }
+    void addedge(int u,int v,int w){
+        g[cnt++]=node(u,v,w);
+    }
+    int find(int x) {
+        int root = x;
+        while (root != Set[root]) root = Set[root];
+        while (x != root) {
+            int t = Set[x];
+            Set[x] = root;
+            x = t;
+        }
+        return root;
+    }
+    void unite(int x, int y) {
+        x = find(x); y = find(y);
+        if (Rank[x] < Rank[y]) {
+            Set[x] = y;
+        } else {
+            Set[y] = x;
+            if (Rank[x] == Rank[y]) Rank[x]++;
+        }
+    }
+    //nä¸ºè¾¹çš„æ•°é‡ï¼Œmä¸ºæ‘åº„çš„æ•°é‡
+    int Run(int n, int m) {
+        int num = 0, res = 0; //å°†è¾¹æŒ‰ç…§æƒå€¼ä»å°åˆ°å¤§æ’åº
+        sort(g,g+cnt);
+        for (int i = 0; i < n && num != m - 1; i++) {
+            int u=g[i].u,v=g[i].v,w=g[i].w;
+            //åˆ¤æ–­å½“å‰è¿™æ¡è¾¹çš„ä¸¤ä¸ªç«¯ç‚¹æ˜¯å¦å±äºåŒä¸€æ£µæ ‘
+            if (find(u) != find(v)) {
+                unite(u, v);
+                res += w;
+                num++;
+            }
+        }
+        //å¦‚æœåŠ å…¥è¾¹çš„æ•°é‡å°äºm - 1,åˆ™è¡¨æ˜è¯¥æ— å‘å›¾ä¸è¿é€š,ç­‰ä»·äºä¸å­˜åœ¨æœ€å°ç”Ÿæˆæ ‘
+        if (num < m - 1) res = -1;
+        return res;
+    }
 }

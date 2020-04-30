@@ -100,7 +100,7 @@ BBP.cc	BBP公式求pi十六进制的第k位
 PriorStar.cc	前向星
 union-find.cc 	并查集
 union-find(undo).cc	可撤销并查集（按秩合并）
-Kruskal.cc	Kruskal最小生成树
+MST_Kruskal.cc	Kruskal最小生成树
 MST_Prim.cc	Prim最小生成树
 SPFA.cc	SPFA 最短路
 dijkstra.cc	dijkstra 最短路
@@ -167,6 +167,7 @@ heavy_light_decomposition.cpp	树链剖分
 [字符串]
 KMP.cc	KMP
 exKMP.cc	扩展KMP
+MinmaxString.cc	字符串的最小最大表示法
 trie.cc	TRIE
 ACautomachine.cc	AC自动机
 SA.cc	后缀数组(倍增)

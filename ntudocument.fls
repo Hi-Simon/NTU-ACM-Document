@@ -462,9 +462,9 @@ INPUT code/union-find.cc
 INPUT code/union-find(undo).cc
 INPUT code/union-find(undo).cc
 INPUT code/union-find(undo).cc
-INPUT code/Kruskal.cc
-INPUT code/Kruskal.cc
-INPUT code/Kruskal.cc
+INPUT code/MST_Kruskal.cc
+INPUT code/MST_Kruskal.cc
+INPUT code/MST_Kruskal.cc
 INPUT code/MST_Prim.cc
 INPUT code/MST_Prim.cc
 INPUT code/MST_Prim.cc
@@ -648,6 +648,9 @@ INPUT code/KMP.cc
 INPUT code/exKMP.cc
 INPUT code/exKMP.cc
 INPUT code/exKMP.cc
+INPUT code/MinmaxString.cc
+INPUT code/MinmaxString.cc
+INPUT code/MinmaxString.cc
 INPUT code/trie.cc
 INPUT code/trie.cc
 INPUT code/trie.cc
